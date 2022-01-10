@@ -1,0 +1,122 @@
+.wrapper {
+    margin: 0;
+    padding: 50px;
+    background: url(https://wallpaperaccess.com/full/1489195.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.wrapper__clock {
+    /*background: rgb(46,43,128);
+    background: radial-gradient(circle, rgba(46,43,128,1) 5%, rgba(0,0,0,1) 88%);*/
+    background: url(https://img.freepik.com/free-photo/chalkboard-blackboard-dark-wallpaper-background_28629-1125.jpg?size=626&ext=jpg);
+    background-size: cover;
+    display: flex;
+    width: 350px;
+    padding: 50px;
+    border: solid 10px #333;
+    border-radius: 20px;
+    height: 80px;
+    margin-top: 15%;
+}
+
+.seg-1, .seg-4, .seg-7  {
+    width: 30px;
+    height: 5px;
+    border: solid 1px #111;
+    background-color: #333;
+    border-radius: 4px;
+    margin-left: 5px;
+    box-shadow: 2px 2px 2px #222;
+}
+
+.seg-2, .seg-3, .seg-5, .seg-6 {
+    width: 5px;
+    height: 30px;
+    border: solid 1px #111;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #222;
+}
+
+
+
+.digit {
+    width: 42px;
+    margin-right: 10px;
+}
+
+.seg-2-3, .seg-5-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__clock__digit1__segment-5-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border: solid 1px #111;
+    background-color: #ee2126;
+    border-radius: 50%;
+    margin: 22px 10px 0 0;
+}
+
+
+
+/*.wrapper__clock__digit1__segment-1,
+.wrapper__clock__digit1__segment-3,
+.wrapper__clock__digit1__segment-4,
+.wrapper__clock__digit1__segment-5,
+.wrapper__clock__digit1__segment-7 {
+    background-color: #ee2126;
+}
+
+.wrapper__clock__digit2__segment-1,
+.wrapper__clock__digit2__segment-3,
+.wrapper__clock__digit2__segment-4,
+.wrapper__clock__digit2__segment-6,
+.wrapper__clock__digit2__segment-7 {
+    background-color: #ee2126;
+}
+
+.wrapper__clock__digit3__segment-1,
+.wrapper__clock__digit3__segment-2,
+.wrapper__clock__digit3__segment-3,
+.wrapper__clock__digit3__segment-5,
+.wrapper__clock__digit3__segment-6,
+.wrapper__clock__digit3__segment-7 {
+    background-color: #ee2126;
+}
+
+.wrapper__clock__digit4__segment-1,
+.wrapper__clock__digit4__segment-3,
+.wrapper__clock__digit4__segment-6 {
+    background-color: #ee2126;
+}
+
+.wrapper__clock__digit5__segment-2,
+.wrapper__clock__digit5__segment-3,
+.wrapper__clock__digit5__segment-4,
+.wrapper__clock__digit5__segment-6 {
+    background-color: #ee2126;
+}
+
+.wrapper__clock__digit6__segment-1,
+.wrapper__clock__digit6__segment-2,
+.wrapper__clock__digit6__segment-4,
+.wrapper__clock__digit6__segment-5,
+.wrapper__clock__digit6__segment-6,
+.wrapper__clock__digit6__segment-7 {
+    background-color: #ee2126;
+}*/
+
+/*.seg-1 {
+    background-color: #ee2126;
+}*/
